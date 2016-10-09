@@ -1,0 +1,43 @@
+header{
+  background-image: url(../images/home4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+}
+
+.container{
+  display: table;
+  padding: 0px;
+}
+
+.row{
+  padding-top: 25px;
+  display: table-cell;
+   vertical-align: top;
+}
+
+.nav li{
+
+  display: inline-block;
+  padding-left: 19px;
+  padding-right: 15px;
+  font-size:13px;
+
+}
+
+
+.nav li a{
+padding: 0px;
+color:#fff;
+}
+
+nav{
+  padding-top: 46px;
+  float:right;
+}
+
+
+h1,
+nav{
+  display: inline-block;
+}
