@@ -1,3 +1,7 @@
+h1{
+margin:0px;
+}
+
 header{
   background-image: url(../images/home4.jpg);
   background-size: cover;
@@ -6,38 +10,41 @@ header{
 }
 
 .container{
-  display: table;
-  padding: 0px;
+width: 100%;
+height: 100%;
 }
 
-.row{
-  padding-top: 25px;
-  display: table-cell;
-   vertical-align: top;
-}
-
-.nav li{
-
-  display: inline-block;
-  padding-left: 19px;
-  padding-right: 15px;
-  font-size:13px;
-
+.fondo_negro{
+background: rgba(0, 0, 0, 0.3);  
 }
 
 
-.nav li a{
-padding: 0px;
-color:#fff;
+.tamaño{
+  width: 1175px;
+  margin: 0 auto;
+  height: 200px;
 }
 
 nav{
-  padding-top: 46px;
   float:right;
+  padding-top: 70px;
 }
 
+h1{
+  padding-top: 45px;
+  float: left;
+}
 
-h1,
-nav{
+nav ul li{
+  font-size: 12px;
   display: inline-block;
+  padding-left: 10px;
+  padding-right: 20px;
+  letter-spacing: 1px;
 }
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
