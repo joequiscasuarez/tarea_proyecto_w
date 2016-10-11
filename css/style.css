@@ -2,27 +2,16 @@ h1{
 margin:0px;
 }
 
+.fondo{
+  background: rgba(0, 0, 0, 0.3);  
+}
+
 header{
   background-image: url(../images/home4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 680px;
-}
-
-.container{
-width: 100%;
-height: 100%;
-}
-
-.fondo_negro{
-background: rgba(0, 0, 0, 0.3);  
-}
-
-
-.tamaño{
-  width: 1175px;
-  margin: 0 auto;
-  height: 200px;
+  /*height: 680px;
+  max-height: 680px;*/
 }
 
 nav{
@@ -36,10 +25,11 @@ h1{
 }
 
 nav ul li{
+  font-weight: bold;
   font-size: 12px;
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 20px;
+  padding-left: 14px;
+  padding-right: 15px;
   letter-spacing: 1px;
 }
 
@@ -48,3 +38,47 @@ nav ul li a{
   text-decoration: none;
 }
 
+
+.title {
+  padding-top: 91px;
+  font-size: 55px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.text{
+  padding-top: 22px;
+  padding-bottom: 285px;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.img-service{
+  
+  background-image: url(../images/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 730px;
+  width: 570px;
+}
+
+.espacio{
+  margin-top: 170px;
+}
+
+.title2{
+  font-size: 35px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  margin:0px;
+}
+
+
+.linear{
+  margin-left: 115px;
+  
+}
